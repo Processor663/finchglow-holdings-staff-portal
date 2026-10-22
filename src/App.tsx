@@ -12,9 +12,7 @@ const HomePage = lazy(() =>
   import("./pages/Views").then((module) => ({ default: module.HomePage })),
 );
 const ApplicationsPage = lazy(() =>
-  import("./pages/Views").then((module) => ({
-    default: module.ApplicationsPage,
-  })),
+  import("./pages/Views").then((module) => ({ default: module.ApplicationsPage })),
 );
 const NewsPage = lazy(() =>
   import("./pages/Views").then((module) => ({
